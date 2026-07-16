@@ -1,0 +1,11 @@
+# Core numerical/plotting (used for saving high-quality figures, dpi=300)
+matplotlib>=3.7
+
+# Rendering frames for the cart–pole simulation (creates and saves PNG frames)
+pygame>=2.5
+
+# Fast numerical arrays (used to accelerate finite-difference PDE updates and vector/matrix operations)
+numpy>=1.24
+
+# Scientific computing utilities (optional unless you run the SciPy integrator mode for the ODE simulation)
+scipy>=1.10

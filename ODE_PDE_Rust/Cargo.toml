@@ -1,0 +1,29 @@
+[package]
+name = "ode_pde_rust"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["mohammadijoo"]
+description = "Numerical ODE & PDE examples in Rust: 2D Heat Equation (FTCS) and Cart–Pole with Sliding Mode Control."
+repository = "https://github.com/mohammadijoo/ODE_PDE_RUST"
+readme = "README.md"
+
+[profile.release]
+lto = true
+codegen-units = 1
+
+[dependencies]
+anyhow = "1"
+csv = "1"
+plotters = "0.3"
+image = { version = "0.25", default-features = false, features = ["png"] }
+imageproc = "0.25"
+minifb = "0.27"
+
+[[bin]]
+name = "heat2d"
+path = "src/heat2d/main.rs"
+
+[[bin]]
+name = "pendulum_sliding_mode"
+path = "src/pendulum_sliding_mode/main.rs"

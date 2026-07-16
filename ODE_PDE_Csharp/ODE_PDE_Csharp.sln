@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heat2D", "Heat2D\Heat2D.csproj", "{0E62EB89-819D-4B65-847F-AF107A418E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PendulumSlidingMode", "PendulumSlidingMode\PendulumSlidingMode.csproj", "{02DEF9D3-AD0C-4A84-8B43-4A478DE7914D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E62EB89-819D-4B65-847F-AF107A418E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E62EB89-819D-4B65-847F-AF107A418E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E62EB89-819D-4B65-847F-AF107A418E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E62EB89-819D-4B65-847F-AF107A418E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DEF9D3-AD0C-4A84-8B43-4A478DE7914D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DEF9D3-AD0C-4A84-8B43-4A478DE7914D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DEF9D3-AD0C-4A84-8B43-4A478DE7914D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DEF9D3-AD0C-4A84-8B43-4A478DE7914D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C5FF86-4B46-40BB-848C-0A8124061AAC}
+	EndGlobalSection
+EndGlobal
